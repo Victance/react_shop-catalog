@@ -14,6 +14,11 @@ body {
   scroll-behavior: smooth;
 
   @extend %main;
+
+  &--with-menu {
+    background: #000;
+    overflow: hidden;
+  }
 }
 
 code {
