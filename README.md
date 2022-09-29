@@ -3,7 +3,7 @@
 Used:
 * React with Hooks
 * TypeScript
-* Scss
+* SCSS
 * [React scroll-into-view](https://www.npmjs.com/package/react-scroll-into-view)
 * [React Router](https://www.npmjs.com/package/react-router-dom)
 * [classNames](https://www.npmjs.com/package/classnames)
