@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "./static/css/main.355f39d5.chunk.css",
+    "main.js": "./static/js/main.2d4bea84.chunk.js",
+    "main.js.map": "./static/js/main.2d4bea84.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.8c9895b1.js",
+    "runtime-main.js.map": "./static/js/runtime-main.8c9895b1.js.map",
+    "static/js/2.b9410e75.chunk.js": "./static/js/2.b9410e75.chunk.js",
+    "static/js/2.b9410e75.chunk.js.map": "./static/js/2.b9410e75.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.355f39d5.chunk.css.map": "./static/css/main.355f39d5.chunk.css.map",
+    "static/js/2.b9410e75.chunk.js.LICENSE.txt": "./static/js/2.b9410e75.chunk.js.LICENSE.txt",
+    "static/media/Loader.scss": "./static/media/Loader.0aaf07f3.svg",
+    "static/media/NavMobile.scss": "./static/media/iconTwoTilesActive.8270813e.svg",
+    "static/media/ProductItem.scss": "./static/media/iconFavoriteActive.c98812a1.svg",
+    "static/media/logo-footer.6dfe3bfb.svg": "./static/media/logo-footer.6dfe3bfb.svg",
+    "static/media/logo.06314595.svg": "./static/media/logo.06314595.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c9895b1.js",
+    "static/js/2.b9410e75.chunk.js",
+    "static/css/main.355f39d5.chunk.css",
+    "static/js/main.2d4bea84.chunk.js"
+  ]
+}
