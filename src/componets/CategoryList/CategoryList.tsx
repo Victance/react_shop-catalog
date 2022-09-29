@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 import React from 'react';
-import { NavLink, useLocation, useSearchParams } from 'react-router-dom';
+import { NavLink, useSearchParams } from 'react-router-dom';
 import { Category } from '../../types/ICategory';
 import './CategoryList.scss';
 
@@ -10,10 +10,7 @@ type Props = {
 };
 
 export const CategoryList: React.FC<Props> = React.memo(({ categories, clickHandler }) => {
-  const { search } = useLocation();
   const [searchParams] = useSearchParams();
-
-  // ?view=two-tiles&page=2
 
   function filterSearch(page: string): string {
     const copy = new URLSearchParams(searchParams.toString());
@@ -34,9 +31,15 @@ export const CategoryList: React.FC<Props> = React.memo(({ categories, clickHand
         <NavLink
           to={{
             pathname: '/',
-            search,
+            search: filterSearch('page'),
           }}
           className="CategoryList__link CategoryList__link--bold"
+          onClick={() => {
+            document.body.style.overflow = 'visible';
+            if (clickHandler) {
+              clickHandler();
+            }
+          }}
         >
           Переглянути все
         </NavLink>
@@ -52,7 +55,12 @@ export const CategoryList: React.FC<Props> = React.memo(({ categories, clickHand
             className={
               ({ isActive }) => classNames('CategoryList__link', { 'CategoryList__link--active': isActive })
             }
-            onClick={clickHandler}
+            onClick={() => {
+              document.body.style.overflow = 'visible';
+              if (clickHandler) {
+                clickHandler();
+              }
+            }}
           >
             {category.name}
           </NavLink>

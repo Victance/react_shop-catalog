@@ -15,7 +15,7 @@ export const Header: React.FC<Props> = React.memo(({ clickHandler }) => {
   const view = searchParams.get('view');
 
   return (
-    <header className="Header">
+    <header className="Header" id="header">
       <div className="HeaderWrapper">
         <div className="Header__container">
           <Link
@@ -32,9 +32,13 @@ export const Header: React.FC<Props> = React.memo(({ clickHandler }) => {
           </Link>
 
           <button
+            id="nav-mob-toggler"
             type="button"
             className="icon icon--menu"
-            onClick={() => clickHandler(true)}
+            onClick={() => {
+              document.body.style.overflow = 'hidden';
+              clickHandler(true);
+            }}
           >
           </button>
         </div>

@@ -7,7 +7,6 @@
   min-height: 100vh;
 
   &__main {
-    display: flex;
     padding: 0 15px;
     max-width: 1440px;
     margin: 0 auto 50px;
@@ -17,6 +16,7 @@
     }
   
     @include onDesktop {
+      display: flex;
       padding: 0 63px;
     }
   }
