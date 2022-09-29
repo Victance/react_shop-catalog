@@ -9,8 +9,7 @@ Used:
 * [classNames](https://www.npmjs.com/package/classnames)
 * [fakestoreAPI](https://fakeapi.platzi.com/doc/products#update-a-product)
 
-To run the project locally type in the console the following commands:
-1. git clone 'project link'
-2. npm i
-3. npm start
-4. Open your browser at http://localhost:3000
+To run the project locally download it and type in the console the following commands:
+1. npm i
+2. npm start
+3. Open your browser at http://localhost:3000
