@@ -1,9 +1,16 @@
-# React TypeScript Starter Pack
+[Preview](https://victance.github.io/react_shop-catalog/#/)
 
-To use this template click `Use this template`
+Used:
+* React with Hooks
+* TypeScript
+* Scss
+* [React scroll-into-view](https://www.npmjs.com/package/react-scroll-into-view)
+* [React Router](https://www.npmjs.com/package/react-router-dom)
+* [classNames](https://www.npmjs.com/package/classnames)
+* [fakestoreAPI](https://fakeapi.platzi.com/doc/products#update-a-product)
 
-### Available Scripts
-
-`Deploy` - available to deploy your application to gh-pages
-
-`SCSS Preprocessor` - available to write your styles with modern style language
+To run the project locally type in the console the following commands:
+1. git clone 'project link'
+2. npm i
+3. npm start
+4. Open your browser at http://localhost:3000
