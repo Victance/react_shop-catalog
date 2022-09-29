@@ -1,0 +1,24 @@
+@import '../../utils';
+@import '../../styles/icons.scss';
+
+.NavMobile {
+  height: 100vh;
+  background-color: #fff;
+  padding: 0 15px;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 0;
+
+    @include onTablet {
+      padding: 35px 0;
+    }
+  }
+
+  @include onTablet {
+    padding: 0 35px;
+  }
+}

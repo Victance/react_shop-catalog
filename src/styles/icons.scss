@@ -1,0 +1,41 @@
+.icon {
+  display: block;
+  border: none;
+  width: 20px;
+  height: 20px;
+
+
+  transition: transform 0.2s, background-image 0.3s;
+
+  &--menu {
+    background: url(../images/icons/iconMenu.svg); 
+
+    @include onDesktop {
+      display: none;
+    }
+  }
+
+  &--menu-cross {
+    background: url(../images/icons/iconCross.svg);
+
+    &:active {
+      transform: rotate(-360deg);
+    }
+  }
+
+  &--fourTilesToggler{
+    background: url(../images/icons/iconFourTiles.svg);
+  }
+
+  &--fourTilesTogglerActive {
+    background: url(../images/icons/iconFourTilesActive.svg);
+  }
+
+  &--twoTilesToggler {
+    background: url(../images/icons/iconTwoTiles.svg);
+  }
+
+  &--twoTilesTogglerActive {
+    background: url(../images/icons/iconTwoTilesActive.svg);
+  }
+}
