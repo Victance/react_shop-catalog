@@ -1,0 +1,30 @@
+@import '../../utils';
+
+.CategoryList {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  padding-right: 40px;
+
+  list-style: none;
+
+  &__link {
+    display: flex;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #333;
+    border-bottom: 1px solid transparent;
+
+    &:hover {
+      border-color: #333;
+    }
+
+    &--active {
+      border-color: #333;
+    }
+
+    &--bold {
+      font-weight: 600;
+    }
+  }
+}

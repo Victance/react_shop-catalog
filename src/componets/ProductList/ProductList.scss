@@ -1,0 +1,26 @@
+@import '../../utils';
+
+.ProductList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+
+  list-style: none;
+
+  @include onTablet {
+    margin-bottom: 30px;
+  }
+
+  @include onDesktop {
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+
+  &__noProducts {
+    @include onDesktop {
+      font-size: 36px;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+@import '../../utils';
+@import '../../styles/icons.scss';
+
+.Header {
+  padding: 20px 15px;
+
+  @include onTablet {
+    padding: 30px 34px;
+  }
+
+  @include onDesktop {
+    padding: 74px 63px 0;
+    margin-bottom: 30px;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__view {
+    display: none;
+    justify-content: flex-end;
+    gap: 10px;
+
+    @include onDesktop {
+      display: flex;
+    }
+  }
+}
+
+.HeaderWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  max-width: 1314px;
+  margin: 0 auto;
+}

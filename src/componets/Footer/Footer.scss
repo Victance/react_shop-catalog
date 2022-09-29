@@ -1,0 +1,19 @@
+@import '../../utils';
+
+.Footer {
+  padding: 20px 15px;
+  background: #000;
+
+  @include onTablet {
+    padding: 30px 34px;
+  }
+
+  @include onDesktop {
+    padding: 44px 63px 62px;
+  }
+
+  &__container {
+    max-width: 1314px;
+    margin: 0 auto;
+  }
+}
