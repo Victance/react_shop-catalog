@@ -1,6 +1,6 @@
 [Preview](https://victance.github.io/react_shop-catalog/#/)
 
-Used:
+I used:
 * React with Hooks
 * TypeScript
 * SCSS
