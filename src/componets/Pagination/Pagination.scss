@@ -1,9 +1,19 @@
+@import '../../utils';
+
 .Pagination {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 5px;
 
   list-style: none;
+
+  @include onTablet {
+    gap: 10px;
+  }
+
+  @include onDesktop {
+    gap: 20px;
+  }
 
   &__item {
     border: 1px solid #333;
